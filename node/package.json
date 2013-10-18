@@ -1,7 +1,7 @@
 {
-  "name": "android-live-storm-webserver",
+  "name": "stormapp",
   "version": "0.0.1",
-  "author": "Francisco Jordano <francisco@jordano.es>",
+  "author": "ebottabi",
   "description": "a simple web server to serve the real time demo app",
   "dependencies" : {
     "express" :  "2.5",
