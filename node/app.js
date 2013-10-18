@@ -11,11 +11,11 @@ sub.subscribe("articles");
 app.listen(8080);
 
 app.get('/', function (req, res) {
-  res.sendfile(__dirname + '/index.html');
+  res.sendfile( '/index.html' , {root:__dirname});
 });
 
 app.get('/readme.html', function (req, res) {
-  res.sendfile(__dirname + '/readme.html');
+  res.sendfile( '/readme.html' , {root:__dirname});
 });
 
 io.sockets.on('connection', function (socket) {
