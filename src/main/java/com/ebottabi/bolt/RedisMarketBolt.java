@@ -4,10 +4,6 @@
  */
 package com.ebottabi.bolt;
 
-/**
- *
- * @author ebot
- */
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -32,7 +28,7 @@ import twitter4j.Status;
  * the html and parse the information, publishing into a redis channel the
  * information recollected.
  *
- * @author arcturus@ardeenelinfierno.com
+ * @author ebot
  *
  */
 public class RedisMarketBolt extends RedisBolt implements OnDynamicConfigurationListener {
